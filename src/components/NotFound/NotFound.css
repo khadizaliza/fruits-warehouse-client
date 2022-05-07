@@ -1,0 +1,13 @@
+
+.error h2{
+   color: blueviolet; 
+   padding: 30px;
+   text-align: center;
+}
+.error img{
+    border: 2px solid blueviolet;
+    border-radius: 20px;
+    
+}
+
+
