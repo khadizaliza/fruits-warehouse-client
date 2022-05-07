@@ -1,0 +1,13 @@
+.brand h2{
+    text-align: center;
+    color: blueviolet;
+    padding: 20px;
+}
+.brand img{
+    width: 500px;
+    height: 400px;
+    padding: 20px;
+}
+.brand p{
+    color: blueviolet;
+}

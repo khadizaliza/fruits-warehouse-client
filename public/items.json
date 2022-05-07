@@ -2,43 +2,43 @@
     {
       "id": 1,
       "price": "$5 per kilo",
-      "img": "https://i.ibb.co/k9hYsqN/guava1.jpg",
-      "whereFrom": "Barisal",
+      "img": "https://i.ibb.co/whPSBKZ/guava11.jpg",
+      "whereFrom": "From Barisal",
       "name": "Guava"
     },
     {
       "id": 2,
       "price": "$8 per pice",
       "img": "https://i.ibb.co/gmWK75P/jackfruit4.jpg",
-      "whereFrom": "Jessore",
+      "whereFrom": "From Jessore",
       "name": "Jackfruit"
     },
     {
       "id": 3,
       "price": "$8 per kilo",
       "img": "https://i.ibb.co/Dr8nyRt/lichi5.jpg",
-      "whereFrom": "Rajshahi",
+      "whereFrom": "From Rajshahi",
       "name": "Lichi"
     },
     {
       "id": 4,
       "price": "$10 per kilo",
       "img": "https://i.ibb.co/j4s7QRB/mango3.jpg",
-      "whereFrom": "Rajshahi",
+      "whereFrom": "From Rajshahi",
       "name": "Mango"
     },
     {
       "id": 5,
       "price": "$10 per kilo",
       "img": "https://i.ibb.co/r3Hmby3/orange6.jpg",
-      "whereFrom": "Sylhet ",
+      "whereFrom": "From Sylhet ",
       "name": "Orange"
     },
     {
       "id":6,
       "price": "$10 per dozen",
       "img": "https://i.ibb.co/QcgQxmF/banana9.jpg",
-      "whereFrom": "Munshiganj",
+      "whereFrom": "From Munshiganj",
       "name": "Banana"
     }
   ]

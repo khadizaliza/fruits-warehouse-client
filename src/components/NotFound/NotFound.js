@@ -1,7 +1,7 @@
 
 import React from 'react';
-import error from '../../image/error.webp'
-import './NotFound.css'
+import error from '../../image/error.webp';
+import './NotFound.css';
 
 const NotFound = () => {
     return (
