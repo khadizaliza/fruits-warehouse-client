@@ -5,6 +5,7 @@ import Navbar from './components/Navbar/Navbar';
 import { Route, Routes } from 'react-router-dom';
 import Footer from './components/Footer/Footer';
 import NotFound from './components/NotFound/NotFound';
+import Blog from './Blog/Blog';
 
 function App() {
   return (
@@ -13,7 +14,9 @@ function App() {
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/home' element={<Home></Home>}></Route>
+        <Route path='/blog'element={<Blog></Blog>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
+        
       </Routes>
       <Footer></Footer>
     </div>

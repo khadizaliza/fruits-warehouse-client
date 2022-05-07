@@ -8,7 +8,7 @@ const Item = ({item}) => {
         <div className='item'>
             <h6>{id}</h6>
             <img src={img} alt="" />
-          <h2>Name: {name}</h2>
+          <h4>Name: {name}</h4>
            <p>Price: {price}</p>
             <p>{whereFrom}</p>
             <button>Add Item</button>
