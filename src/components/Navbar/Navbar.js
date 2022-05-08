@@ -4,7 +4,9 @@ import logo from '../../image/logo.jpg'
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <header>
+          <div>
+          <nav className="navbar navbar-expand-lg navbar-light bg-light">
   <div className="container-fluid">
     <Link className="navbar-brand" to="#">
       <img src={logo} height="50px" alt="" />
@@ -15,13 +17,16 @@ const Navbar = () => {
     <div className="collapse navbar-collapse" id="navbarText">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <Link className="nav-link active" aria-current="page" to="#">Home</Link>
+          <Link className="nav-link active" aria-current="page" to="home">Home</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="#">About</Link>
+          <Link className="nav-link" to="about">About</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="#">Blog</Link>
+          <Link className="nav-link" to="home#items">Items</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" to="blog">Blog</Link>
         </li>
       </ul>
       <span className="navbar-text">
@@ -30,6 +35,9 @@ const Navbar = () => {
     </div>
   </div>
 </nav>
+          </div>
+
+        </header>
     );
 };
 
