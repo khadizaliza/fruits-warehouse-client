@@ -4,7 +4,8 @@ import { useNavigate } from 'react-router-dom';
 import './Item.css'
 
 const Item = ({item}) => {
-   const {name, img, price, _id, seller, quentity} = item; 
+   const {name, img, price, _id, seller, quentity} = item;
+   console.log(item) 
    const navigate = useNavigate();
    const navigatToItemDetail = id =>{
        navigate(`/login`);
