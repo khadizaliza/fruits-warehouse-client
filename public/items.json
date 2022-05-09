@@ -3,42 +3,48 @@
       "id": 1,
       "price": "$5 per kilo",
       "img": "https://i.ibb.co/whPSBKZ/guava11.jpg",
-      "whereFrom": "From Barisal",
+      "seller": "Rahat",
+      "quentity":"20",
       "name": "Guava"
     },
     {
       "id": 2,
       "price": "$8 per pice",
       "img": "https://i.ibb.co/gmWK75P/jackfruit4.jpg",
-      "whereFrom": "From Jessore",
+      "seller": "Jannat",
+      "quentity":"30",
       "name": "Jackfruit"
     },
     {
       "id": 3,
       "price": "$8 per kilo",
       "img": "https://i.ibb.co/Dr8nyRt/lichi5.jpg",
-      "whereFrom": "From Rajshahi",
+      "seller": "Rownok",
+      "quentity":"40",
       "name": "Lichi"
     },
     {
       "id": 4,
       "price": "$10 per kilo",
       "img": "https://i.ibb.co/j4s7QRB/mango3.jpg",
-      "whereFrom": "From Rajshahi",
+      "seller": "Manifa",
+      "quentity":"60",
       "name": "Mango"
     },
     {
       "id": 5,
       "price": "$10 per kilo",
       "img": "https://i.ibb.co/r3Hmby3/orange6.jpg",
-      "whereFrom": "From Sylhet ",
+      "seller": "Redwon ",
+      "quentity":"10",
       "name": "Orange"
     },
     {
       "id":6,
       "price": "$10 per dozen",
       "img": "https://i.ibb.co/QcgQxmF/banana9.jpg",
-      "whereFrom": "From Munshiganj",
+      "seller": "Manaf",
+      "quentity":"70",
       "name": "Banana"
     }
   ]

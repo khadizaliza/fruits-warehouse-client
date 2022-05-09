@@ -4,10 +4,10 @@ import { useNavigate } from 'react-router-dom';
 import './Item.css'
 
 const Item = ({item}) => {
-   const {name, img, price, _id, whereFrom} = item; 
+   const {name, img, price, _id, seller, quentity} = item; 
    const navigate = useNavigate();
    const navigatToItemDetail = id =>{
-       navigate(`/item/${id}`);
+       navigate(`/login`);
 
    }
     return (
@@ -16,8 +16,9 @@ const Item = ({item}) => {
             <img src={img} alt="" />
           <h4>Name: {name}</h4>
            <p>Price: {price}</p>
-            <p>{whereFrom}</p>
-            <button onClick={() => navigatToItemDetail(_id)} className='btn btn-primary'>Add Item</button>
+            <p>Seller: {seller}</p>
+            <p><small>quentity:{quentity}</small></p>
+            <button onClick={() => navigatToItemDetail(_id)} className='btn btn-primary'>Update Item</button>
         </div>
     );
 };
