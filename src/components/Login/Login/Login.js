@@ -17,7 +17,7 @@ const Login = () => {
     ] = useSignInWithEmailAndPassword(auth);
 
     if(user){
-      navigate('/checkout');
+      navigate('/home');
     }
 
     const handleSubmit = (event) => {
