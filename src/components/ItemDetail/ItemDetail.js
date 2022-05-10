@@ -6,7 +6,7 @@ const ItemDetail = () => {
     const [item, setItem] = useState({});
 
     useEffect( () =>{
-        const url = `http://localhost:5000/items/${itemId}`;
+        const url = `https://aqueous-fortress-82201.herokuapp.com/items/${itemId}`;
         fetch(url)
         .then(res=> res.json())
         .then(data => setItem(data));
@@ -16,7 +16,7 @@ const ItemDetail = () => {
             <h2>wellcome to detail: {item.name}</h2>
             <div>
                 <Link to="/checkout">
-                    <button className='btn btn-primary'>Checkout</button>
+                    <button className='btn btn-primary'>Dilever</button>
                 </Link>
             </div>
         </div>
