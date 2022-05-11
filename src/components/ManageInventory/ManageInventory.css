@@ -1,0 +1,15 @@
+.product img{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+.curd{
+    border: 2px solid blueviolet;
+    margin: 20px;
+    
+    border-radius: 25px;
+}
+.inventory{
+    color: blueviolet;
+    padding: 20px;
+}

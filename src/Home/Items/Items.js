@@ -7,7 +7,7 @@ const Items = () => {
     const [items, setItems] = useState([]);
      
     useEffect( ()=>{
-     fetch('https://aqueous-fortress-82201.herokuapp.com/items') 
+     fetch('http://localhost:5000/items') 
      .then(res => res.json())
      .then(data => setItems(data));  
     }, [])
