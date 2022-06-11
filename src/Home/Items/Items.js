@@ -7,9 +7,12 @@ const Items = () => {
     const [items, setItems] = useState([]);
      
     useEffect( ()=>{
-     fetch('http://localhost:5000/items') 
+     fetch('https://shielded-bastion-03757.herokuapp.com/items') 
      .then(res => res.json())
-     .then(data => setItems(data));  
+     .then(data => {
+        setItems(data)
+        console.log(data)
+     });  
     }, [])
     return (
         <div id='items' className='container'>
